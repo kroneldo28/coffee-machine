@@ -36,7 +36,7 @@ def make_drink(drink):
     resources["coffee"] -= MENU[drink]["ingredients"]["coffee"]
     if drink == "latte" or drink == "cappuccino":
         resources["milk"] -= MENU[drink]["ingredients"]["milk"]
-    print(f"Here is your {drink}. Enjoy!")
+    print(f"Here is your {drink} ☕️. Enjoy!")
 
 
 def transaction_successful(money, drink):
