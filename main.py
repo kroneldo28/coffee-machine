@@ -85,7 +85,7 @@ money_in_the_machine = 0
 
 while machine_on:
     # Get the user choice
-    choice = input("What would you like? [Espresso($1.5), Latte($2.5), Cappuccino($3.0)? ").lower()
+    choice = input("\nWhat would you like? [Espresso($1.5), Latte($2.5), Cappuccino($3.0)? ").lower()
     if choice == "off":
         print("The machine is turned off. Good bye!")
         machine_on = False
